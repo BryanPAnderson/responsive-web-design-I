@@ -1,3 +1,203 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+header {
+	margin-bottom: 20px;
+	margin-left: 50px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+}
+
+.navbar {
+	width: 70%;
+}
+
+.navbar a {
+	margin: 20px;
+	color: grey;
+	text-align: center;
+	padding: 0 4%;
+	display: inline-block;
+	text-decoration: none;
+}
+
+a:hover  {
+	color: white;
+	background-color: lightgrey;
+}
+
+.title {
+    width: 40%;
+    height: 50%;
+	border: 1px solid black;
+	background-color: grey;
+    content: 20px;
+    padding: 20px;
+    margin: 20px 20px 10px 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pic{
+	width: 40%;
+    height: 50%;
+	border: 1px solid black;
+	background-color: grey;
+    content: 20px;
+    padding: 20px;
+    margin: 20px 20px 700px 200px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+button {
+    width: 40%;
+    margin-left: 130px;
+}
+
+.top-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.top-div1 {
+	width: 40%;
+	height: 50%;
+	border: 1px solid black;
+	background-color: grey;
+	content: 20px;
+	padding: 20px;
+	margin: 20px;
+}
+
+.top-div2 {
+    width: 40%;
+    height: 50%;
+	border: 1px solid black;
+	background-color: grey;
+    content: 20px;
+    padding: 20px;
+	margin: 20px;
+}
+
+.pic2 {
+	width: 100%;
+	height: 200px;
+}
+
+.middle-img {
+    width: 60%;
+    height: 60%;
+}
+
+
+.bottom-content {
+	margin: 20px;
+	padding: 40px;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.bottom-div1 {
+	width: 20%;
+	height: 50%;
+	border: 1px solid black;
+	background-color: grey;
+	content: 20px;
+	padding: 20px;
+	margin: 20px;
+}
+
+.bottom-div2 {
+	width: 20%;
+	height: 50%;
+	border: 1px solid black;
+	background-color: grey;
+	content: 20px;
+	padding: 20px;
+	margin: 20px;
+}
+
+.bottom-div3 {
+	width: 20%;
+	height: 50%;
+	border: 1px solid black;
+	background-color: grey;
+	content: 20px;
+	padding: 20px;
+	margin: 20px;
+}
 
